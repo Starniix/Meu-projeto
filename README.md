@@ -6,3 +6,9 @@ Desenvolver uma aplicação para registrar máquinas, técnicos
 e ordens de manutenção.
 ## Equipe
 - Nome
+## Tecnologias previstas
+- JavaScript
+- Node.js
+- Express
+- Banco de dados
+- Git e GitHub
