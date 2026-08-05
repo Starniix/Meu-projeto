@@ -1,0 +1,2 @@
+Primeira aula do projeto.
+Tema: introdução ao Git e GitHub.
