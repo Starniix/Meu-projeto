@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cam">
+        <h2>Câmera</h2>
+        <video id="camera" width="400" autoplay></video> <br><br>
+        <button onclick="abrirCamera()">Abrir câmera</button> 
+        <span><button onclick="fecharCamera()">Fechar câmera</button></span>
+        <br> <br>
+        <button onclick="capturarFoto()">Registrar</button>
+    </div>
+    
+    <div class="fotoPonto">
+        <div class="foto">
+            <h2>Fotografia</h2>
+            <canvas id="foto" width="400" height="300"></canvas>
+        </div>
+
+        <div id="rp">
+            <h1>Registro de Ponto</h1>
+            <h3 id="data">Data</h3> 
+            <h3 id="dia">Dia</h3>
+            <h3 id="hora">Hora</h3>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
